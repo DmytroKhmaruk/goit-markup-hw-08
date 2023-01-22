@@ -1,0 +1,11 @@
+.error {
+    display: none;
+}
+  
+.modal__input:not(:placeholder-shown):not(:focus):invalid {
+    background-color: hwb(0 0% 61% / 0.377);
+}
+  
+.modal__input:not(:placeholder-shown):not(:focus):invalid + .error {
+    display: block;
+}

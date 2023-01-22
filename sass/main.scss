@@ -1,0 +1,52 @@
+@import "./utils/variables";
+
+@import './base/reset';
+@import './base/styles';
+
+@import './components/header';
+@import './components/logo';
+@import './components/header-navigation';
+@import './components/header-contacts';
+
+@import './components/hero-section';
+
+@import './components/benefit-section';
+
+@import './components/services-section';
+
+@import './components/team-cards';
+@import './components/social-link';
+
+@import './components/customers-section';
+
+@import './components/footer';
+@import './components/footer-logo';
+@import './components/footer-contacts';
+@import './components/footer-soc-container';
+@import './components/footer-social-link';
+@import './components/subscribe-section';
+
+@import './components/portfolio';
+
+@import './components/filters';
+
+@import './components/project-cards';
+@import './components/project-text';
+@import './components/project-type';
+
+@import './components/modal';
+@import './components/modal-title';
+@import './components/modal-btn';
+@import './components/modal-inputs';
+
+@import './components/input-container';
+@import './components/input-wrap';
+@import './components/input-title';
+@import './components/input-message';
+@import './components/error';
+
+@import './components/checkbox';
+@import './components/checkbox-icon';
+@import './components/checkbox-text';
+
+@import './components/privacy';

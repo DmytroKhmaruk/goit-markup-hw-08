@@ -1,0 +1,23 @@
+.project__container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
+
+    border: 1px solid #eeeeee;
+    border-top: none;
+}
+
+.project__title {
+    margin-bottom: 4px;
+
+    color: $primary-text-color;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project__type { 
+    font-size: 16px;
+    line-height: 1.88;
+}

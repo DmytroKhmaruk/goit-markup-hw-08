@@ -1,0 +1,18 @@
+.checkbox__icon {
+    width: 16px;
+    height: 15px;
+    margin-right: 8px;
+
+    border: 2px solid $primary-text-color;
+    border-radius: 4px;
+    transition:
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer; 
+
+    .checkbox:checked + .check__text & {
+        border-color: $accent-color;
+        background-color: $accent-color;
+        background-size: contain;
+        background-origin: border-box;
+    }
+}

@@ -1,0 +1,13 @@
+.check__text {
+    position: relative;
+    margin-bottom: 30px;
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $tittle-text-color;
+    
+    & :hover {
+    border-color: $accent-color;
+    }
+}

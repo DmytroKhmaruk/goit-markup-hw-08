@@ -1,0 +1,26 @@
+.benefit__list {
+    gap: 30px;
+}
+
+.benefit__item {
+    max-width: 270px;
+}
+
+.benefit__svg {
+    margin-bottom: 30px;
+
+    width: 270px;
+    height: 120px;
+
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+
+.benefit__subtitle {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
