@@ -9,7 +9,7 @@ body {
 
 .btn {
     border-radius: 4px;
-    padding: 10px 32px;
+    padding: 10px 24px;
     min-width: 200px;
 
     font-weight: 700;
@@ -24,7 +24,6 @@ body {
 }
 
 .list {
-    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -54,20 +53,37 @@ body {
   }
 
 .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        }
 }
 
 .container {
-    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: 480px) {
+    width: 480px;
+    }
+
+    @media screen and (min-width: 768px) {
+    width: 768px;
+    }
+
+    @media screen and (min-width: 1200px) {
+    width: 1200px;
+    }
 }
 
-.position-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+// .position-center {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
 
-}
+// }

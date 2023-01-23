@@ -1,5 +1,10 @@
 .modal__field {
     position: relative;
-
-    margin-bottom: 20px;
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
 }
+
+.modal__field--margin-b {
+    margin-bottom: 20px;
+  }
