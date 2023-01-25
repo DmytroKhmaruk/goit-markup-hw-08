@@ -358,8 +358,10 @@ body.modal-open {
   border-right: 1px solid #212121;
   border-top-width: 22px;
 }
-.mob-soc__item:nth-child(3) {
-  padding-right: 14px;
+@media screen and (max-width: 400px) {
+  .mob-soc__item:nth-child(3) {
+    padding-right: 14px;
+  }
 }
 
 .mob-soc__link {

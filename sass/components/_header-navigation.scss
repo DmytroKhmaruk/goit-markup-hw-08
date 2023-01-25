@@ -210,8 +210,10 @@
         border-top-width: 22px;
     }
 
+    @media screen and (max-width: 400px) {
     &:nth-child(3) {
         padding-right: 14px;
+    }
     }
 }
 
