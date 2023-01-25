@@ -1,7 +1,7 @@
 .hero { 
     padding-top: 118px;
     padding-bottom: 121px;
-    max-width: 480px; 
+    max-width: 768px;
     margin-left: auto;
     margin-right: auto;
 
@@ -63,5 +63,11 @@
 
         font-size: 26px;
         line-height: 1.62;
+    }
+}
+
+.hero__btn--size {
+    @media screen and (min-width: 1200px) {
+    min-width: 216px;
     }
 }

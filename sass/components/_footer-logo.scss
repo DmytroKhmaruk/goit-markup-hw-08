@@ -1,7 +1,15 @@
-.footer__logo {
-    display: inline-block;
+.footer__logo {   
     margin-right: 0;
     margin-bottom: 20px;
 
     color: $primary-white-color;
+
+    @media screen and (max-width: 767.5px){
+        display: flex;
+        justify-content: center;
+    }
+
+    @media screen and (min-width: 1200px){
+    display: inline-block;
+    }
 }
