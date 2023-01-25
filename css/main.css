@@ -772,12 +772,18 @@ body.modal-open {
   margin-bottom: 0;
 }
 
-.soc-container {
-  margin-right: 93px;
+@media screen and (max-width: 767.5px) {
+  .soc-container {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .soc-container {
+    margin-right: 93px;
+  }
 }
 
 .soc__title {
-  display: inline-block;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -786,6 +792,11 @@ body.modal-open {
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .soc__title {
+    display: inline-block;
+  }
 }
 
 .soc__link--color {

@@ -1,6 +1,7 @@
 .soc__title {
-    display: inline-block;
+
     margin-bottom: 20px;
+
 
     font-weight: 700;
     font-size: 14px;
@@ -9,6 +10,10 @@
     color: $primary-white-color;
     text-transform: uppercase;
     text-align: center;
+
+    @media screen and (min-width: 1200px) {
+    display: inline-block;
+    }
 }
 
 .soc__link--color {
