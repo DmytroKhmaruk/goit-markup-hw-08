@@ -32,6 +32,7 @@
     padding: 10px 15px 48px 40px;
     font-size: 40px;
     font-weight: 500;
+    line-height: 1.15;
     z-index: 5;
     > .mob-container {
         display: flex;
@@ -40,9 +41,9 @@
         height: 100%;
       }
 
-    @media screen and (max-width: 459.5px) {
-        font-size: 25px;
-    }
+    // @media screen and (max-width: 459.5px) {
+    //     font-size: 25px;
+    // }
 
     @media screen and (max-width: 767.5px) { 
         position: fixed;
@@ -68,6 +69,18 @@
 
 .mob__link {
     color: #212121;
+}
+
+.mob__link--namber {
+    font-size: 34px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+}
+
+.mob__link--emale {
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
 }
 
 .mob__item {
@@ -185,14 +198,20 @@
 
 .mob-soc__list {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .mob-soc__item {
+    margin-bottom: 20px;
     &:not(:last-child) {
         margin-right: 10px;
         padding-right: 10px;
         border-right: 1px solid #212121;
         border-top-width: 22px;
+    }
+
+    &:nth-child(3) {
+        padding-right: 11px;
     }
 }
 
@@ -200,10 +219,11 @@
     display: block;
     font-size: 18px;
     line-height: 1.22;
+    letter-spacing: 0.02em;
     color: $accent-color;
 
-    @media screen and (max-width: 459.5px) {
-        font-size: 10px;
-    }
+//     @media screen and (max-width: 459.5px) {
+//         font-size: 10px;
+//     }
 }
 
