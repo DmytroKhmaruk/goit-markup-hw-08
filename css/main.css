@@ -54,10 +54,10 @@ body.modal-open {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
   border-radius: 4px;
   padding: 10px 24px;
   min-width: 200px;
+  height: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -69,7 +69,8 @@ body.modal-open {
 }
 @media screen and (max-width: 1199.5px) {
   .btn {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -248,6 +249,7 @@ body.modal-open {
   font-size: 34px;
   line-height: 1.18;
   letter-spacing: 0.02em;
+  color: #2196F3;
 }
 
 .mob__link--emale {
@@ -349,7 +351,7 @@ body.modal-open {
   flex-wrap: wrap;
 }
 
-.mob-soc__item {
+.mob-soc__item:nth-child(-n+2) {
   margin-bottom: 20px;
 }
 .mob-soc__item:not(:last-child) {
@@ -411,6 +413,11 @@ body.modal-open {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199.5px) {
+  .hero > .container {
+    flex-direction: column;
+  }
+}
 
 .hero__title {
   margin: auto;
@@ -443,6 +450,8 @@ body.modal-open {
 @media screen and (min-width: 1200px) {
   .hero__btn--size {
     min-width: 216px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -916,6 +925,7 @@ body.modal-open {
 }
 
 .filter__list {
+  display: flex;
   margin-bottom: 50px;
   justify-content: center;
   align-items: center;
@@ -946,6 +956,7 @@ body.modal-open {
 }
 
 .project__list {
+  display: flex;
   flex-wrap: wrap;
   text-align: left;
 }

@@ -15,12 +15,11 @@ body.modal-open {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
 
     border-radius: 4px;
     padding: 10px 24px;
     min-width: 200px;
-
+    height: 50px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -32,7 +31,8 @@ body.modal-open {
     border: none;
 
     @media screen and (max-width: 1199.5px) {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     }
 }
 
