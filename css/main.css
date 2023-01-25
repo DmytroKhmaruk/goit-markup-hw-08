@@ -246,6 +246,8 @@ body.modal-open {
 }
 
 .mob__link--namber {
+  padding-top: 0;
+  padding-bottom: 0;
   font-size: 34px;
   line-height: 1.18;
   letter-spacing: 0.02em;
