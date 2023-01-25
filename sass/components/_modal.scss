@@ -23,8 +23,6 @@
     top: 50%;
     left: 50%;
     padding: 40px;
-    max-width: 450px;
-    width: calc(100% - 30px);
     height: 609px;
     background-color: $primary-white-color;
     box-shadow:
@@ -36,7 +34,7 @@
     transform: translate(-50%, -50%);
 
     @media screen and (max-width: 767.5px) {
-        overflow-y: scroll;
+        width: 100%;
     }
 
     @media screen and (min-width: 768px) {
